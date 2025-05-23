@@ -1,10 +1,14 @@
-import IntroCard from '../../components/common/IntroCard';
+import IntroCard from '../../components/IntroCard';
 import { BookOpenCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-const grammarSections = Array.from({ length: 8 }, (_, i) => ({
-    title: `Grammar Topic ${i + 1}`,
-    description: '',
-}));
+const grammarTopics = [
+  { title: "Pronouns", path: "/work/grammar/pronouns", description: "Learn about different types of pronouns and their uses." },
+  { title: "Tenses", path: "/work/grammar/tenses", description: "Understand the different verb tenses and their applications." },
+  { title: "Modal Verbs", path: "/work/grammar/modal-verbs", description: "Learn about modal auxiliary verbs and their functions." },
+  { title: "Question Forming & WH-Questions", path: "/work/grammar/question-forming", description: "Master how to form questions and use WH-questions." }
+  // More topics will be added here later
+];
 
 const Grammar = () => (
     <div className="p-6 bg-gray-900 min-h-screen text-white">
@@ -15,15 +19,11 @@ const Grammar = () => (
             theme="dark"
         />
 
-        {grammarSections.map((section, idx) => (
-            <div key={idx} className="bg-gray-800 p-4 rounded-lg mb-4">
-                <h3 className="font-bold text-lg mb-2">{section.title}</h3>
-                <p className="mb-2">{section.description || 'Coming soon...'}</p>
-                <div className="bg-gray-700 p-3 rounded mt-2">
-                    <p><strong>Example:</strong> "I have been working all day."</p>
-                    <p className="mt-1 italic">Q: What tense is used here? <br /> A: Present perfect continuous.</p>
-                </div>
-            </div>
+        {grammarTopics.map((topic, idx) => (
+            <Link to={topic.path} key={idx} className="block bg-gray-800 p-4 rounded-lg mb-4 hover:bg-gray-700 transition-colors">
+                <h3 className="font-bold text-lg text-indigo-400 mb-2">{topic.title}</h3>
+                <p className="text-gray-300">{topic.description}</p>
+            </Link>
         ))}
     </div>
 );

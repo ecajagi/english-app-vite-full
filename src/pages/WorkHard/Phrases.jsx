@@ -1,5 +1,5 @@
 // 3. pages/work/Phrases.jsx
-import IntroCard from '../../components/common/IntroCard';
+import IntroCard from '../../components/IntroCard';
 import { MessageSquareQuote } from 'lucide-react';
 
 const sections = ["Elementary", "Intermediate", "Advanced"];

@@ -1,4 +1,4 @@
-import IntroCard from '../../components/common/IntroCard';
+import IntroCard from '../../components/IntroCard';
 import { Quote } from 'lucide-react';
 
 const quotes = [
