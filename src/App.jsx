@@ -11,6 +11,10 @@ import Pronouns from './pages/WorkHard/GrammarPages/Pronouns';
 import Tenses from './pages/WorkHard/GrammarPages/Tenses';
 import ModalVerbs from './pages/WorkHard/GrammarPages/ModalVerbs';
 import QuestionForming from './pages/WorkHard/GrammarPages/QuestionForming';
+import WordOrder from './pages/WorkHard/GrammarPages/WordOrder';
+import Quantifiers from './pages/WorkHard/GrammarPages/Quantifiers';
+import ReflexivePronouns from './pages/WorkHard/GrammarPages/ReflexivePronouns';
+import WordTypes from './pages/WorkHard/GrammarPages/WordTypes';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
         <Route path="/work/grammar/tenses" element={<Tenses />} />
         <Route path="/work/grammar/modal-verbs" element={<ModalVerbs />} />
         <Route path="/work/grammar/question-forming" element={<QuestionForming />} />
+        <Route path="/work/grammar/word-order" element={<WordOrder />} />
+        <Route path="/work/grammar/quantifiers" element={<Quantifiers />} />
+        <Route path="/work/grammar/reflexive-pronouns" element={<ReflexivePronouns />} />
+        <Route path="/work/grammar/word-types" element={<WordTypes />} />
         <Route path="/work/phrases" element={<Phrases />} />
         <Route path="/work/good-to-know" element={<GoodToKnow />} />
         <Route path="/work/quiz" element={<QuizSection />} />

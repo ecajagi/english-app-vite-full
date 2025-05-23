@@ -6,7 +6,11 @@ const grammarTopics = [
   { title: "Pronouns", path: "/work/grammar/pronouns", description: "Learn about different types of pronouns and their uses." },
   { title: "Tenses", path: "/work/grammar/tenses", description: "Understand the different verb tenses and their applications." },
   { title: "Modal Verbs", path: "/work/grammar/modal-verbs", description: "Learn about modal auxiliary verbs and their functions." },
-  { title: "Question Forming & WH-Questions", path: "/work/grammar/question-forming", description: "Master how to form questions and use WH-questions." }
+  { title: "Question Forming & WH-Questions", path: "/work/grammar/question-forming", description: "Master how to form questions and use WH-questions." },
+  { title: "Word Order", path: "/work/grammar/word-order", description: "Learn the rules for correct word order in English sentences." },
+  { title: "Quantifiers", path: "/work/grammar/quantifiers", description: "Explore how to use quantifiers with countable and uncountable nouns." },
+  { title: "Reflexive Pronouns", path: "/work/grammar/reflexive-pronouns", description: "Understand how to use reflexive pronouns correctly." },
+  { title: "Word Types", path: "/work/grammar/word-types", description: "Learn about the different categories of words (nouns, verbs, adjectives, etc.)." }
   // More topics will be added here later
 ];
 
