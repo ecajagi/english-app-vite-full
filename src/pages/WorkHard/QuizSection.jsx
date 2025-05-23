@@ -2,11 +2,14 @@
 import { useState } from 'react';
 import { BrainCircuit } from 'lucide-react';
 import IntroCard from '../../components/IntroCard';
+import QuizBlock from '../../components/QuizBlock';
 
 const levels = ['Elementary', 'Intermediate', 'Upper-Intermediate'];
 
 const QuizSection = () => {
     const [selectedLevel, setSelectedLevel] = useState(null);
+    const [selectedQuizId, setSelectedQuizId] = useState(null);
+    const [currentQuizQuestions, setCurrentQuizQuestions] = useState([]);
 
     return (
         <div className="bg-gray-900 min-h-screen text-white p-6">
