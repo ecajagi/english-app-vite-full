@@ -1,4 +1,4 @@
-
+import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Grammar from "./pages/WorkHard/Grammar";
 import Phrases from "./pages/WorkHard/Phrases";
@@ -11,6 +11,7 @@ import Images from "./pages/PlayHard/Images";
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/work/grammar" element={<Grammar />} />
         <Route path="/work/phrases" element={<Phrases />} />
