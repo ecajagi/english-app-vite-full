@@ -7,18 +7,18 @@ export default function MainMenu() {
       <div>
         <h2 className="font-bold text-lg">Work Hard</h2>
         <ul>
-          <li><Link to="/work/grammar">Grammar</Link></li>
-          <li><Link to="/work/phrases">Phrases</Link></li>
-          <li><Link to="/work/good-to-know">Good to Know</Link></li>
-          <li><Link to="/work/quiz">Quiz</Link></li>
+          <li><Link to="/workhard/grammar.jsx">Grammar</Link></li>
+          <li><Link to="/workhard/phrases.jsx">Phrases</Link></li>
+          <li><Link to="/workhard/good-to-know.jsx">Good to Know</Link></li>
+          <li><Link to="/workhard/quiz.jsx">Quiz</Link></li>
         </ul>
       </div>
       <div>
         <h2 className="font-bold text-lg">Play Hard</h2>
         <ul>
-          <li><Link to="/play/quotes">Quotes</Link></li>
-          <li><Link to="/play/idioms">Idioms</Link></li>
-          <li><Link to="/play/images">Images</Link></li>
+          <li><Link to="/playhard/quotes.jsx">Quotes</Link></li>
+          <li><Link to="/playhard/idioms.jsx">Idioms</Link></li>
+          <li><Link to="/playhard/images.jsx">Images</Link></li>
         </ul>
       </div>
     </nav>
