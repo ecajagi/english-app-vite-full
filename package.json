@@ -1,0 +1,31 @@
+{
+  "name": "lessonlearned",
+  "version": "1.0.0",
+  "description": "An app which will improve your english in all the most important places. Divided into elementary, intermediate and advanced levels. And by seriousness into Work-Hard, Play-Hard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecajagi/english-app-vite-full.git"
+  },
+  "keywords": [
+    "english",
+    "learning",
+    "study",
+    "languages",
+    "fun",
+    "and",
+    "practical",
+    "adults",
+    "and",
+    "business"
+  ],
+  "author": "Erik C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecajagi/english-app-vite-full"
+  },
+  "homepage": "https://github.com/ecajagi/english-app-vite-full#readme"
+}
